@@ -2,7 +2,7 @@
 // Authors: Paul Ammann & Jeff Offutt
 // Chapter 2, section 2.5, page 80
 
-//Tier 1 Integration
+//Tier 2 Integration
 
 /** *****************************************************
 // Stutter checks for repeat words in a text file.
