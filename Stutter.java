@@ -2,6 +2,8 @@
 // Authors: Paul Ammann & Jeff Offutt
 // Chapter 2, section 2.5, page 80
 
+//Tier 1 Integration
+
 /** *****************************************************
 // Stutter checks for repeat words in a text file.
 // It prints a list of repeat words, by line number.
