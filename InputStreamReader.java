@@ -1,7 +1,10 @@
- class InputStreamReader {
+import java.io.InputStream;
 
-        public InputStreamReader(InputStream in) {
-        }
 
+public class InputStreamReader {
+
+	public InputStreamReader(InputStream in) {
+		// TODO Auto-generated constructor stub
+	}
 
 }
