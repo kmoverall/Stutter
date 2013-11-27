@@ -31,7 +31,12 @@ public static void main (String[] args) throws IOException
    String fileName;
    FileReader myFile;
    BufferedReader inFile = null;
+   
+   fileName="input.txt";
+   myFile = new FileReader (fileName);
+   inFile = new BufferedReader (myFile);
 
+  /*
    if (args.length == 0)
    {  // no file, use stdin
       inFile = new BufferedReader (new InputStreamReader (System.in));
@@ -49,7 +54,7 @@ public static void main (String[] args) throws IOException
          inFile = new BufferedReader (myFile);
       }
    }
-
+   */
    stut (inFile);
 }
 
@@ -85,6 +90,8 @@ private static void stut (BufferedReader inFile) throws IOException
       }
       checkDupes (linecnt);
       linecnt++;
+      
+      System.out.println("words is repeated");
 
    }
 }  // end Stut
@@ -100,6 +107,7 @@ private static void checkDupes (int line)
    return; // already checked, keep skipping
    
    lastdelimit = true;
+   /*
    if (curWord.equals(prevWord))
    {
       System.out.println ("Repeated word on line " + line + ": " +
@@ -109,6 +117,7 @@ private static void checkDupes (int line)
    {
       prevWord = curWord;
    }
+   */
    curWord = "";
 }  // end checkDupes
 
