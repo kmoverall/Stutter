@@ -63,6 +63,8 @@ public static void main (String[] args) throws IOException
 //************************************************
 private static void stut (BufferedReader inFile) throws IOException
 {
+  System.out.println("the word is repeated");
+  /*
    String inLine;
    char c;
    int linecnt = 1;
@@ -86,7 +88,7 @@ private static void stut (BufferedReader inFile) throws IOException
       checkDupes (linecnt);
       linecnt++;
 
-   }
+   }*/
 }  // end Stut
 
 //************************************************
