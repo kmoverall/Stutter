@@ -11,7 +11,7 @@
 // of file names.
  *  Jeff Offutt, June 1989 (in C), Java version March 2003 
 ********************************************************* */
-import java.io.*;
+//import java.io.*;
 
 class Stutter
 {
