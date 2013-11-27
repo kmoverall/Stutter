@@ -11,7 +11,7 @@
 // of file names.
  *  Jeff Offutt, June 1989 (in C), Java version March 2003 
 ********************************************************* */
-import java.io.*;
+//import java.io.*;
 
 class Stutter
 {
@@ -96,6 +96,7 @@ private static void stut (BufferedReader inFile) throws IOException
 //************************************************
 private static void checkDupes (int line)
 {
+   /*
    if (lastdelimit)
    return; // already checked, keep skipping
    
@@ -110,6 +111,7 @@ private static void checkDupes (int line)
       prevWord = curWord;
    }
    curWord = "";
+   */
 }  // end checkDupes
 
 //************************************************
@@ -117,9 +119,11 @@ private static void checkDupes (int line)
 //************************************************
 private static boolean isDelimit (char C)
 {
+  /*
    for (int i = 0; i < delimits.length; i++)
    if (C == delimits [i])
       return (true);
+  */
    return (false);
 }
 
