@@ -31,6 +31,13 @@ public static void main (String[] args) throws IOException
    String fileName;
    FileReader myFile;
    BufferedReader inFile = null;
+   
+   fileName="input.txt";
+   myFile = new FileReader (fileName);
+   inFile = new BufferedReader (myFile);
+   
+   
+   /*
 
    if (args.length == 0)
    {  // no file, use stdin
@@ -48,7 +55,7 @@ public static void main (String[] args) throws IOException
          myFile = new FileReader (fileName);
          inFile = new BufferedReader (myFile);
       }
-   }
+   }*/
 
    stut (inFile);
 }
@@ -124,6 +131,7 @@ private static boolean isDelimit (char C)
    if (C == delimits [i])
       return (true);
   */
+   
    return (false);
 }
 
